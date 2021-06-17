@@ -17,6 +17,10 @@
             android:value="54"/>
 
         <meta-data
+                android:name="xposedscope"
+                android:resource="@array/xposed_scope" />
+
+        <meta-data
             android:name="xposeddescription"
             android:value="移除MIUI系统相机拍照声音\nhttps://github.com/XuanRanDev/CustomCamera点个star呗~"/>
 
