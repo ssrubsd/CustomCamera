@@ -42,6 +42,8 @@ public class XpInit implements IXposedHookLoadPackage {
 
                 }
             });
+
+            StreetSnapHook.streetSnapHook(lpparam);
         }
     }
 }
