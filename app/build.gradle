@@ -1,14 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        release {
-            storeFile file('D:\\AndroidStudioProject\\SignPassworld\\XuanRan_Release.jks')
-            storePassword 'XuanRan_Release_0808'
-            keyAlias = 'XuanRan'
-            keyPassword 'XuanRan_Release_0808'
-        }
-    }
+
     compileSdkVersion 29
     buildToolsVersion "30.0.2"
 
